@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #b15367;
+}
+
+.search-bar {
+    background-color: #e98484;
+    padding: 20px;
+    text-align: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #c07eda;
+    
+}
+
+.search-bar button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.gallery-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.gallery-item {
+    margin: 0 10px;
+    text-align: center;
+    padding: 50px;
+}
+
+.gallery-item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.1);
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: cursive;
+}

@@ -1,0 +1,53 @@
+body {
+    background-image: url(authback.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    display: flex;
+    flex-direction: column; /* Stack containers vertically */
+    align-items: center; /* Center align containers horizontally */
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.box {
+    width: 100%; /* Take full width of the container */
+    margin-bottom: 20px; /* Add some space between containers */
+    padding: 45px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+.image-container {
+    width: 100px; /* Set width for the image container */
+    height: 100px; /* Set height for the image container */
+    margin-right: 20px; /* Add space between image and content */
+    display: flex;
+    justify-content: center; /* Center align image horizontally */
+    align-items: center; /* Center align image vertically */
+}
+
+.image-container img {
+    width: 120px; /* Set width for the image */
+    height: 120px; /* Set height for the image */
+    border-radius: 50%; /* Make the image circular */
+}
+
+.content-container {
+    flex: 1; /* Take remaining space */
+}
+
+.content-container h2 {
+    margin-top: 0;
+    font-size: 30px;
+}
+
+.content-container p {
+    margin-bottom: 0;
+    font-size: 20px;
+}

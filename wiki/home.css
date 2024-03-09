@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #f0f0f0; /* Set background color */
+}
+
+.circle-container {
+    position: relative;
+    width: 350px; /* Adjust container size */
+    height: 350px; /* Adjust container size */
+}
+
+.circle {
+    position: absolute;
+    width: 100px; /* Adjust image size */
+    height: 100px; /* Adjust image size */
+    border-radius: 50%; /* Make image circular */
+    overflow: hidden;
+}
+
+.center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.right-top {
+    top: 30%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.right-bottom {
+    top: 70%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.left-bottom {
+    top: 70%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.left-top {
+    top: 30%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.circle img {
+    width: 100%; /* Make image fill its container */
+    height: auto;
+}

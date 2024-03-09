@@ -1,0 +1,51 @@
+body{
+    background-image: url(rani1back.jpg);
+    
+}
+.container {
+    display: flex;
+    flex-direction: column; /* Stack containers vertically */
+    align-items: center; /* Center align containers horizontally */
+    max-width: 1000px; /* Set maximum width */
+    margin: 0 auto;
+}
+
+.box {
+    width: 100%; /* Take full width of the container */
+    margin-bottom: 20px; /* Add some space between containers */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f8de89a8;
+    display: flex;
+}
+
+.image-container {
+    width: 170px; /* Set width for the image container */
+    height: 170px; /* Set height for the image container */
+    margin-right: 20px; /* Add space between image and content */
+    display: flex;
+    justify-content: center; /* Center align image horizontally */
+    align-items: center; /* Center align image vertically */
+    border-radius: 5%;/* Make the image container circular */
+    overflow: hidden; /* Hide overflowing content */
+}
+
+.image-container img {
+    width: 100%; /* Set width to fill the image container */
+    height: 100px; /* Maintain aspect ratio */
+    border-radius: 5%;/* Make the image circular */
+}
+
+.content-container {
+    flex: 1; /* Take remaining space */
+}
+
+.content-container h2 {
+    margin-top: 0;
+}
+
+.content-container p {
+    margin-bottom: 0;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Styles for the outer rectangle */
+        body{
+            color: rgb(247, 133, 28);
+            background-color: rgb(250, 217, 183);
+        }
+        .outer-rectangle {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Styles for the large circle */
+        .large-circle {
+            width: 75%;
+            padding-bottom: 50%; /* Maintain aspect ratio */
+            background-color: rgb(250, 217, 183);
+            border-radius: 50%;
+            position: relative;
+        }
+
+        /* Styles for the smaller circles (images) */
+        .h3{
+            font-size: 50px;
+        }
+        .small-circle {
+            width: 15%;
+            padding-bottom: -1%; /* Maintain aspect ratio */
+            background-color: rgb(250, 217, 183);
+            border-radius: 50%;
+            position: absolute;
+            text-align: center;
+            line-height: 15%;
+            font-size: 15px;
+        }
+
+        /* Positioning the smaller circles */
+        .small-circle.migla { top: 20%; left: 20%; }
+        .small-circle.hela { top: 20%; right: 20%; }
+        .small-circle.hien { bottom: 20%; left: 20%; }
+        .small-circle.hunel { bottom: 20%; right: 20%; }
+        .small-circle.helmi { top: 50%; left: 50%; transform: translate(-50%, -50%); }
+
+        /* Placeholder styles for images (replace with actual image URLs) */
+        .small-circle img {
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer-rectangle">
+        <div class="large-circle">
+            <div class="small-circle migla">
+                <a href="achieve.html"><img src="img22.jpg" alt="Migla"></a>
+                <h3>Achievements</h3>
+            </div>
+            <div class="small-circle hela">
+                <a href="wyw.html"><img src="img3.webp" alt="Hela"></a>
+                <h3>Why_not_we!!</h3>
+            </div>
+            <div class="small-circle hien">
+                <a href="sug.html"><img src="img4.webp" alt="Hien"></a>
+                <h3>Suggestions</h3>
+            </div>
+            <div class="small-circle hunel">
+                <a href="add.html"><img src="img5.jpg" alt="Hunel"></a>
+                <h3>Add+</h3>
+            </div>
+            <div class="small-circle helmi">
+                <a href="uncover.html"><img src="img1.webp"></a>
+                <h3>Uncover</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

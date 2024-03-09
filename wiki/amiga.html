@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image with Information</title>
+<link rel="stylesheet" type="text/css" href="amiga.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="left-column">
+        <img src="ami.jpeg" alt="Image">
+        <div class="information">
+            <p>Ami Ganatra is an alumna of Indian Institute of Management, Ahmedabad (IIMA). She has over fifteen years of experience in business strategy and consulting, living across four continents and working across a multitude of sectors. In her personal life, she is a devout yoga practitioner and a certified yoga instructor. She is also a student of Sanskrit and Indian knowledge systems. She has authored two books – Mahabharata Unravelled: Lesser known Facets of a well known History, (Bloomsbury, July 2021) and Ramayana Unravelled: Lesser known facets of Rishi Valmiki’s epic (Bloomsbury, July 22) thus far. Her books are not retellings or re-imaginations, but an attempt to go back to the original itihasa and present the story, learnings and nuances for what they are, and make the epics accessible to all.</p>
+        </div>
+    </div>
+    <div class="right-column">
+        <!-- Right column content goes here -->
+        <div class="rating-container">
+            <div class="stars" id="star1">&#9733;</div>
+            <div class="stars" id="star2">&#9733;</div>
+            <div class="stars" id="star3">&#9733;</div>
+            <div class="stars" id="star4">&#9733;</div>
+            <div class="stars" id="star5">&#9733;</div>
+            <div id="avg-rating"></div>
+        </div>
+        <div class="dialog-box">
+            <button id="openDialog">Open Dialog</button>
+
+            <div id="dialogBox" class="dialogBox">
+                <div class="dialogContent">
+                <span id="closeDialog" class="close">&times;</span>
+                <h2>Dialog Box Title</h2>
+                <div id="dialogMessages"></div>
+                <input type="text" id="userInput" placeholder="Enter your message...">
+                <button id="sendMessage">Send</button>
+                </div>
+            </div>
+        </div>
+        <div class="picture">
+            <!-- Picture content goes here -->
+            <img src="dial.png">
+        </div>
+    </div>
+</div>
+<script src="amiga.js"></script>
+</body>
+</html>
